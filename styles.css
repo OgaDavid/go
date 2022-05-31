@@ -340,8 +340,7 @@ label #cancel {
     }
     .home-page-image img {
         width: 500px;
-        align-self: center;
-        margin-left: 130px;
+        margin-left: 120px;
     }
 }
 
@@ -388,12 +387,14 @@ label #cancel {
 
 @media (max-width:540px) {
     .home-page-text {
+        width: 100%;
         text-align: center;
-        padding-top: 1rem;
+        margin: auto;
     }
     .home-page-text h1 {
         font-size: 3rem;
         width: 80%;
+        margin: auto;
     }
     .download-buttons {
         padding-bottom: 20px;
@@ -401,11 +402,14 @@ label #cancel {
     .home-page p {
         font-size: .5rem;
         width: 60%;
+        margin: auto;
         padding-top: 10px;
         padding-bottom: 0;
     }
     .home-page-image img {
         margin-top: 0;
+        width: 100%;
+        margin: auto;
     }
 }
 
@@ -424,21 +428,25 @@ label #cancel {
         top: 21px;
         font-size: .8rem;
     }
+    .home-page-text {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
     .home-page-image img {
         width: 450px;
-        margin-left: 15px;
+        margin: auto;
     }
     .home-page p {
         font-size: .65rem;
-        margin-left: 0px;
+        margin: auto;
         width: 80%;
-        margin-left: 30px;
     }
     .home-page-text h1 {
         margin-right: 30px;
     }
     .download-buttons {
-        margin-right: 30px;
+        margin: auto;
     }
 }
 
@@ -446,17 +454,41 @@ label #cancel {
     .sidebar {
         width: 150px;
     }
+    .home-page-image img {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .home-page-text {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
     .copyright {
         padding-left: 15px;
     }
     .sidebar-arrow {
         display: none;
     }
+    .home-page-text h1 {
+        line-height: 3.5rem;
+        width: 100%;
+        margin: auto;
+        font-size: 2.8rem;
+    }
+    .home-page-text p {
+        font-size: .6rem;
+        width: 100%;
+        margin: auto;
+    }
+    .download-buttons {
+        margin-left: 20px;
+    }
     .sidebar header {
         font-size: 2rem;
         text-align: center;
         background-color: #11101de3;
         border-radius: 5px;
+        color: #fff;
     }
     #check:checked~label #cancel {
         left: 170px;
@@ -466,6 +498,8 @@ label #cancel {
 @media (max-width: 379px) {
     .home-page-image img {
         width: 300px;
+        margin: auto;
+        margin-left: 10px;
     }
     .home-page-text {
         width: 100%;
@@ -488,8 +522,7 @@ label #cancel {
     }
 }
 
-
-/* @media (max-width:350px) {
+@media (max-width:350px) {
     .search-bar input {
         width: 50px;
         padding: 5px 6px;
@@ -500,9 +533,20 @@ label #cancel {
 }
 
 @media (max-width: 340px) {
-    .search-bar {
-        display: none;
-        ;
+    .download-buttons {
+        width: 50%;
+        margin: auto;
+    }
+    .download-button-one {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .download-button-two {
+        display: block;
+    }
+    .home-page-image img {
+        width: 200px;
+        margin: auto;
     }
 }
 
@@ -510,4 +554,4 @@ label #cancel {
     .header-icons {
         display: none;
     }
-} */
+}
